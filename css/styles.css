@@ -18,25 +18,39 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-  list-style-type: none;
+  list-style: none;
 }
 a {
   text-decoration: none;
+  display: inline-block;
 }
 button {
+  font-family: inherit;
   cursor: pointer;
+  display: block;
 }
 img {
   display: block;
 }
 .container {
-  width: 1440px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 /* Header */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: 33px;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
 .logo {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
@@ -45,9 +59,14 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .logo-part {
   color: #2e2f42;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
 }
 .nav-link {
   color: #2e2f42;
@@ -55,13 +74,20 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
+  display: block;
 }
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
 }
+.address-list {
+  display: flex;
+  gap: 40px;
+}
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 .address-link {
   font-size: 16px;
@@ -76,6 +102,8 @@ img {
 /* Section 1 */
 .section-color {
   background-color: #2e2f42;
+  text-align: center;
+  padding-bottom: 188px;
 }
 .main-title {
   font-weight: 700;
@@ -84,6 +112,11 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 496px;
+  margin-bottom: 48px;
+  padding-top: 188px;
 }
 .button-title {
   font-weight: 500;
@@ -92,6 +125,13 @@ img {
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #fff;
+  border-radius: 4px;
+  max-width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
 }
 .button-title:hover,
 .button-title:focus {

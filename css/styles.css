@@ -15,9 +15,8 @@ body {
 }
 ul,
 ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 a {
@@ -34,8 +33,7 @@ img {
 }
 .container {
   width: 1158px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 /* Header */
@@ -44,9 +42,7 @@ img {
 }
 .header-container {
   display: flex;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  justify-content: space-between;
+  align-items: center;
 }
 .navigation {
   display: flex;
@@ -61,7 +57,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
-  padding-top: 24px;
 }
 .logo-part {
   color: #2e2f42;
@@ -69,7 +64,6 @@ img {
 .nav-list {
   display: flex;
   gap: 40px;
-  margin-right: 332px;
 }
 .nav-link {
   color: #2e2f42;

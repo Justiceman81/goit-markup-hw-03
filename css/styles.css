@@ -110,11 +110,16 @@ img {
   color: #404bbf;
 }
 /* Section 1 */
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .hero-container {
   background-color: #2e2f42;
   width: 1440px;
   padding-bottom: 292px;
-  margin-bottom: 60px;
 }
 .main-title {
   font-weight: 700;
@@ -163,10 +168,6 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.benefits {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
 .benefits-list {
   display: flex;
   justify-content: center;
@@ -192,11 +193,6 @@ img {
   color: #434455;
 }
 /* Section 3 */
-.team-back-color {
-  background-color: #f4f4fd;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
 .list-back-color {
   background-color: #ffffff;
 }
@@ -235,10 +231,6 @@ img {
   width: calc((100%-72px) / 4);
 }
 /* Section 4 */
-.portfolio {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -273,6 +265,7 @@ img {
   width: calc((100%-58px) / 3);
   padding-left: 16px;
   padding-bottom: 32px;
+  border-bottom: 1px solid #e7e9fc;
 }
 /* Footer */
 .footer-back-color {

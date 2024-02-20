@@ -113,6 +113,7 @@ img {
   background-color: #2e2f42;
   width: 1440px;
   padding-bottom: 292px;
+  margin-bottom: 60px;
 }
 .main-title {
   font-weight: 700;
@@ -134,13 +135,15 @@ img {
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #fff;
-  display: inline-block;
+  display: block;
   border: none;
   border-radius: 4px;
   min-width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px 32px;
 }
 .button-title:hover,
 .button-title:focus {
@@ -170,7 +173,7 @@ img {
   align-items: baseline;
 }
 .benefits-list-item {
-  width: 264px;
+  width: calc((100%-72) / 4);
   flex-grow: 1;
 }
 .benefits-title {
@@ -190,6 +193,8 @@ img {
 /* Section 3 */
 .team-back-color {
   background-color: #f4f4fd;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .list-back-color {
   background-color: #ffffff;
@@ -202,10 +207,12 @@ img {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .team-list {
   display: flex;
   gap: 24px;
+  width: 264px;
 }
 .team-name {
   font-weight: 500;
@@ -214,6 +221,8 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 .team-prof {
   font-size: 16px;
@@ -221,8 +230,14 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  padding-bottom: 32px;
+  width: calc((100%-72px) / 4);
 }
 /* Section 4 */
+.portfolio {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -231,11 +246,13 @@ img {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .service-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .service-title {
   font-weight: 500;
@@ -243,12 +260,18 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 32px;
+  padding-bottom: 8px;
+  padding-left: 16px;
 }
 .service-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  width: calc((100%-58px) / 3);
+  padding-left: 16px;
+  padding-bottom: 32px;
 }
 /* Footer */
 .footer-back-color {
@@ -261,6 +284,7 @@ img {
 }
 .logo {
   display: inline-block;
+  padding-bottom: 16px;
 }
 .footer-text {
   width: 264px;

@@ -36,8 +36,7 @@ img {
   width: 1158px;
   padding-right: 15px;
   padding-left: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 /* Header */
 .header {
@@ -51,7 +50,7 @@ img {
 }
 .navigation {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 .logo {
   color: #4d5ae5;
@@ -69,7 +68,7 @@ img {
 }
 .nav-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
   margin-right: 332px;
 }
 .nav-link {
@@ -94,7 +93,7 @@ img {
 }
 .address-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .address-link {
   font-size: 16px;
@@ -133,6 +132,7 @@ img {
   max-width: 496px;
   margin-bottom: 48px;
   padding-top: 188px;
+  padding-bottom: 188px;
 }
 .button-title {
   font-weight: 500;
@@ -196,6 +196,9 @@ img {
 .list-back-color {
   background-color: #ffffff;
 }
+.team-name-container {
+  padding: 32px 0;
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -209,7 +212,8 @@ img {
 .team-list {
   display: flex;
   gap: 24px;
-  width: 264px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-name {
   font-weight: 500;
@@ -220,6 +224,7 @@ img {
   color: #2e2f42;
   padding-top: 32px;
   padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .team-prof {
   font-size: 16px;
@@ -239,13 +244,18 @@ img {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 72px;
+  margin-bottom: 8px;
 }
 .service-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+}
+.portfolio-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .service-title {
   font-weight: 500;
@@ -271,17 +281,14 @@ img {
 .footer-back-color {
   background-color: #2e2f42;
   width: 1440px;
-  padding-top: 100px;
-  padding-right: 1020px;
-  padding-bottom: 100px;
-  padding-left: 156px;
+  padding: 100px 0;
 }
 .footer-logo-part {
   color: #f4f4fd;
 }
 .logo {
   display: inline-block;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 .footer-text {
   width: 264px;

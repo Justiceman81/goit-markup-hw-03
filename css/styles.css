@@ -184,6 +184,9 @@ img {
   color: #434455;
 }
 /* Section 3 */
+.section-back-color {
+  background-color: #f4f4fd;
+}
 .list-back-color {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
@@ -213,9 +216,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-top: 32px;
-  padding-bottom: 8px;
-  margin-bottom: 8px;
 }
 .team-prof {
   font-size: 16px;
@@ -223,8 +223,8 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  padding-bottom: 32px;
   width: calc((100%-72px) / 4);
+  margin-top: 8px;
 }
 /* Section 4 */
 .portfolio-title {
@@ -257,32 +257,22 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 32px;
-  padding-bottom: 8px;
-  padding-left: 16px;
-  margin-bottom: 8px;
 }
 .service-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-left: 16px;
-  padding-bottom: 32px;
+  margin-top: 8px;
   border-bottom: 1px solid #e7e9fc;
 }
 /* Footer */
 .footer-back-color {
   background-color: #2e2f42;
-  width: 1440px;
   padding: 100px 0;
 }
 .footer-logo-part {
   color: #f4f4fd;
-}
-.logo {
-  display: inline-block;
-  margin-bottom: 16px;
 }
 .footer-text {
   width: 264px;
@@ -290,4 +280,5 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  margin-top: 16px;
 }
